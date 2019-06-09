@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import AffinityPropagation
 from itertools import cycle
 
-#affinity propagation algorithm: [27][33]
+#affinity propagation algorithm: [25][31]
 
 n=38
 

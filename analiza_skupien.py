@@ -1,10 +1,8 @@
 from scipy.spatial.distance import hamming
 from scipy.spatial import distance
 from scipy.cluster.hierarchy import dendrogram, linkage
-from sklearn.metrics import jaccard_similarity_score
 from sklearn.cluster import KMeans
 from sklearn.cluster import AffinityPropagation
-from sklearn.cluster import KMeans
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,7 +11,7 @@ from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
 from itertools import cycle
 
-#affinity propagation algorithm: [27][33]
+#affinity propagation algorithm: [25][31]
 
 n=38
 
